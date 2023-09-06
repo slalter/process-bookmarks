@@ -22,8 +22,6 @@ def hello_http(request):
     storage_client = storage.Client()
     bucket_name = os.environ.get("bucket_name")
     bucket = storage_client.bucket(bucket_name)
-    
-
     #google sheets
     blob = bucket.blob("pivotal-keep-156022-af60fb230dfd.json")
     with blob.open("r") as f:
@@ -36,6 +34,10 @@ def hello_http(request):
 
     # Build the Sheets API client
     service = build("sheets", "v4", credentials=credentials)
+
+    
+    # Initialize the Google Maps client
+    mapsClient = googlemaps.Client(key=os.environ.get('MAPS_API_KEY'))
 
     #pull the sheets for both Ind and Wet
     try:
@@ -58,21 +60,30 @@ def hello_http(request):
         return -1
 
     #replace a row in the appropriate sheet.
+    #replace a row in the appropriate sheet.
     def replaceRow(data, dType):
         if dType == "Industrial":
             index = getIndex(data["agent_name"],indSheet)
             if(index>0):
-                indSheet[index] = [data[ind] for ind in ["title","property_address","company","agent_name","agent_address","agent_phone","last_mailed","num_mailed","ready_to_mail","property_type","first_seen"]]
+                oldRow = indSheet[index].copy()
+                data['agent_address'] = oldRow[3]
+                data['agent_phone'] = oldRow[4]
+                data['company'] = oldRow[5]
+                indSheet[index] = [data[ind] for ind in ["title","property_address","agent_name","agent_address","agent_phone","company","last_mailed","num_mailed","ready_to_mail","property_type","first_seen"]]
             else:
                 data["first_seen"] = datetime.now().strftime("%Y/%m/%d")
                 addRow(data, dType)
         else:
             index = getIndex(data["agent_name"],wetSheet)
             if(index>0):
-                wetSheet[index] = [data[ind] for ind in ["title","property_address","company","agent_name","agent_address","agent_phone","last_mailed","num_mailed","ready_to_mail","property_type","first_seen"]]
+                oldRow = wetSheet[index].copy()
+                data['agent_address'] = oldRow[3]
+                data['agent_phone'] = oldRow[4]
+                data['company'] = oldRow[5]
+                wetSheet[index] = [data[ind] for ind in ["title","property_address","agent_name","agent_address","agent_phone","company","last_mailed","num_mailed","ready_to_mail","property_type","first_seen"]]
             else:
                 data["first_seen"] = datetime.now().strftime("%Y/%m/%d")
-                addRow(data,dType)
+                addRow(data, dType)
 
     def addRow(data, dType):
         if dType == "Industrial":
@@ -280,7 +291,7 @@ def hello_http(request):
 
 
 #[{title, property_address, agent_name, agent_address, agent_phone, company},$agent2 if 2 agents
-def getData(url):
+def getData(url, mapsClient):
     data_out = [{}]
     print(f"getting data for url: {url}")
     headers =  { 
@@ -316,13 +327,13 @@ def getData(url):
     # Extract property address
     address_element = soup.find(['h4','span'], string = "Address: ")
     if address_element:
-        data_out[0]["property_address"] = get_best_address(address_element.next_sibling.get_text(strip=True))
+        data_out[0]["property_address"] = get_best_address(address_element.next_sibling.get_text(strip=True),client)
     
     # Extract the agent address
-    agent_address_element = soup.find('div', class_='cta-address')
+    agent_address_element = soup.find('div', class_=lambda c: c and c.startswith('cta-address'))
     if agent_address_element:
         agent_address_text = agent_address_element.get_text(strip=True)
-        data_out[0]["agent_address"] = get_best_address(agent_address_text)
+        data_out[0]["agent_address"] = get_best_address(agent_address_text,client)
 
     # Extract the agent phone
     agent_phone_element = soup.find('span', class_='phone-number')
@@ -331,7 +342,7 @@ def getData(url):
         data_out[0]["agent_phone"] = agent_phone_text
 
     # Extract the company
-    company_element = soup.find('span', class_=re.compile(r'company-name(-no-image)?'))
+    company_element = soup.find('span', class_=re.compile(r'company-name(-no-image)?\s*'))
     if company_element:
         company_text = company_element.get_text(strip=True)
         data_out[0]["company"] = company_text
@@ -373,10 +384,7 @@ def getIndexByKey(listIn, key, value):
 def now():
     return (datetime.now()-datetime(2023,1,1)).total_seconds()
 
-def get_best_address(input_string):
-    # Initialize the Google Maps client
-    client = googlemaps.Client(key="AIzaSyB5_K_2QmV_9MvzpwArNJD3VqcqE9o8WMw")
-
+def get_best_address(input_string, client):
     # Geocode the input string
     geocode_result = client.geocode(input_string)
     # Check if there are results
