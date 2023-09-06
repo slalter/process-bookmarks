@@ -1,0 +1,312 @@
+{
+   "checksum": "18bbc55310b36db611ac14729e414464",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13223847758504924",
+            "date_last_used": "13330291380027312",
+            "guid": "beeb669d-41db-4c9b-8af6-328fbf17451f",
+            "id": "17",
+            "name": "Blackboard Learn",
+            "type": "url",
+            "url": "https://bblearn.nau.edu/webapps/login/"
+         }, {
+            "date_added": "13318972763052787",
+            "date_last_used": "13328211728873226",
+            "guid": "a3872e43-3d65-4dfa-9952-a915b129e47a",
+            "id": "63",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "690 drive",
+            "type": "url",
+            "url": "https://drive.google.com/drive/folders/1I5PIK0DyXisZaJbtwJyTP9RDxeFQ8wf0"
+         }, {
+            "date_added": "13319315963502044",
+            "date_last_used": "13334280800085701",
+            "guid": "59a547bb-8dac-4934-961f-e892dab184b6",
+            "id": "65",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "MAT 667, Professor Swift",
+            "type": "url",
+            "url": "https://oak.ucc.nau.edu/jws8/classes/667.2023.1/"
+         }, {
+            "date_added": "13319768128069591",
+            "date_last_used": "13331866498695294",
+            "guid": "f3667ba2-ee37-41a1-a900-ebc32a39a776",
+            "id": "67",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "MAT 587, Professor Swift",
+            "type": "url",
+            "url": "https://oak.ucc.nau.edu/jws8/classes/587.2023.1/"
+         }, {
+            "date_added": "13329002397465618",
+            "date_last_used": "13334944095582855",
+            "guid": "ea62b661-2fb5-40dc-9e3a-e082b501a7dd",
+            "id": "69",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Using R and Python in Google Sheets Formulas | by Sam Terfa | Towards Data Science",
+            "type": "url",
+            "url": "https://towardsdatascience.com/using-r-and-python-in-google-sheets-formulas-b397b302098"
+         }, {
+            "date_added": "13329002402880145",
+            "date_last_used": "13330645472950264",
+            "guid": "249e5a10-2fc5-4e19-b8e5-08e7084fd83f",
+            "id": "70",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Deploying a Python App  |  App Engine standard environment for Python 2  |  Google Cloud",
+            "type": "url",
+            "url": "https://cloud.google.com/appengine/docs/legacy/standard/python/tools/uploadinganapp"
+         }, {
+            "children": [ {
+               "date_added": "13330111903163501",
+               "date_last_used": "0",
+               "guid": "b0e6a710-36e8-44bf-9aad-7335fe820367",
+               "id": "72",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Load a Notion Database in Pandas",
+               "type": "url",
+               "url": "https://www.pynotion.com/load-in-pandas/"
+            }, {
+               "date_added": "13331771959621491",
+               "date_last_used": "0",
+               "guid": "d61ad27c-fd7c-42ef-87a8-d0b56517e944",
+               "id": "75",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "TFT Units Stats - Best Units for Set 9 Patch 13.12",
+               "type": "url",
+               "url": "https://tactics.tools/units"
+            }, {
+               "date_added": "13333738725237117",
+               "date_last_used": "0",
+               "guid": "fd41ebce-47dd-4d24-ba91-b609d7b43787",
+               "id": "77",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "BACKUPS",
+               "type": "url",
+               "url": "https://www.notion.so/BACKUPS-f33994e861a14f6fae8cee8cb6b15bdf"
+            }, {
+               "date_added": "13334695771583442",
+               "date_last_used": "0",
+               "guid": "065a2114-5232-42a1-a8a9-9e683829f91e",
+               "id": "79",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "IVR System For Call Centre Inbound - Agents, Training, And Retention - : Pipes.ai",
+               "type": "url",
+               "url": "https://pipes.ai/ivr-system-for-call-centre-inbound-agents-training-and-retention/"
+            }, {
+               "date_added": "13334710509085060",
+               "date_last_used": "0",
+               "guid": "d56edc0a-6ed0-4ef8-8f10-39595635ff40",
+               "id": "80",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Cloud Storage client libraries  |  Google Cloud",
+               "type": "url",
+               "url": "https://cloud.google.com/storage/docs/reference/libraries#client-libraries-usage-python"
+            } ],
+            "date_added": "13330111926184936",
+            "date_last_used": "0",
+            "date_modified": "13334797037099015",
+            "guid": "0f1097c9-2ed2-49ea-a2e4-66dc0fa24b29",
+            "id": "73",
+            "name": "Notion.so/Gsheets",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13334797217212978",
+               "date_last_used": "13334864909141000",
+               "guid": "a5d2e707-4945-452d-af18-9b61fd377676",
+               "id": "85",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "850 Northlake Dr, Coppell, TX 75019 - Cubework Coppell | LoopNet",
+               "type": "url",
+               "url": "https://www.loopnet.com/Listing/850-Northlake-Dr-Coppell-TX/24410961/"
+            } ],
+            "date_added": "13334797181669924",
+            "date_last_used": "0",
+            "date_modified": "13334797230049450",
+            "guid": "ddc4bac6-46e8-4b80-be5a-c3fc69506e8e",
+            "id": "83",
+            "name": "Industrial",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13334797230049450",
+               "date_last_used": "13335029523367034",
+               "guid": "ff400234-7967-450a-b995-f2d58d5db92f",
+               "id": "86",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "1203 Crestside Dr, Coppell, TX 75019 - Crestside Business Park | LoopNet",
+               "type": "url",
+               "url": "https://www.loopnet.com/Listing/1203-Crestside-Dr-Coppell-TX/28148314/"
+            }, {
+               "date_added": "13334881488953600",
+               "date_last_used": "0",
+               "guid": "6cad42c3-d0e4-48dc-a44d-91b0c40ed363",
+               "id": "88",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "A3E - slalter10@gmail.com - Gmail",
+               "type": "url",
+               "url": "https://mail.google.com/mail/u/0/#inbox/FMfcgzGtwMcHTTKgBrkZrTvQhfmDPsfr"
+            } ],
+            "date_added": "13334797181670643",
+            "date_last_used": "0",
+            "date_modified": "13334881488953600",
+            "guid": "3eb9bb95-bdfe-4dfd-9344-b27b5a30bcd2",
+            "id": "84",
+            "name": "Wetlands",
+            "type": "folder"
+         } ],
+         "date_added": "13242040451183540",
+         "date_last_used": "0",
+         "date_modified": "13330111903163501",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13242040451183546",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [ {
+            "date_added": "13269919534539550",
+            "date_last_used": "0",
+            "guid": "652857ce-0f85-42b0-aa15-91d02b85d4d6",
+            "id": "42",
+            "name": "Facebook",
+            "type": "url",
+            "url": "https://m.facebook.com/"
+         }, {
+            "children": [ {
+               "date_added": "13270516965352353",
+               "date_last_used": "0",
+               "guid": "e5702bb3-dcc0-4e13-bcdf-c2c08fe0116d",
+               "id": "44",
+               "name": "Asian eggs - Recipes - delicious.com.au",
+               "type": "url",
+               "url": "https://www.delicious.com.au/recipes/asian-eggs-del-sunday/ynOiUexz?r=recipes/collections/1vo4q819"
+            }, {
+               "date_added": "13270516981176049",
+               "date_last_used": "0",
+               "guid": "d28da5ae-2d76-4241-acab-51b5b60c50e0",
+               "id": "46",
+               "name": "Korean barbecue chicken fried rice - Recipes - delicious.com.au",
+               "type": "url",
+               "url": "https://www.delicious.com.au/recipes/korean-barbecue-chicken-fried-rice/8ea56959-c2bd-48c4-89e8-b4c40fd50ebc"
+            }, {
+               "date_added": "13270516984353734",
+               "date_last_used": "0",
+               "guid": "8185c3f8-f395-407f-a88b-91cdbdb0021b",
+               "id": "47",
+               "name": "Rigatoni with a spicy sausage sauce - Recipes - delicious.com.au",
+               "type": "url",
+               "url": "https://www.delicious.com.au/recipes/rigatoni-spicy-sausage-sauce/c5f7c5d1-1f06-4a7a-9880-adcc7bd44767"
+            }, {
+               "date_added": "13270516987644988",
+               "date_last_used": "0",
+               "guid": "03da1d6f-e5ac-454b-9b6f-03690277e13f",
+               "id": "48",
+               "name": "Quick chicken cacciatore recipe - Recipes - delicious.com.au",
+               "type": "url",
+               "url": "https://www.delicious.com.au/recipes/quick-chicken-cacciatore/1894df91-d6ef-4f0f-b7a8-7aafd6501ba5?current_section=recipes"
+            }, {
+               "date_added": "13270516991362716",
+               "date_last_used": "0",
+               "guid": "ced084cb-3152-4043-939d-8c35d4feeb1a",
+               "id": "49",
+               "name": "Chopped chilli chicken stir fry - Recipes - delicious.com.au",
+               "type": "url",
+               "url": "https://www.delicious.com.au/recipes/chopped-chilli-chicken-stir-fry/2974bfe6-ffd4-493d-b41e-a149efdf20ad"
+            }, {
+               "date_added": "13271474019099274",
+               "date_last_used": "0",
+               "guid": "b8678465-5103-44c1-a85e-4c109ddb3b6d",
+               "id": "51",
+               "name": "Patch 11.15 notes",
+               "type": "url",
+               "url": "https://na.leagueoflegends.com/en-us/news/game-updates/patch-11-15-notes/"
+            }, {
+               "date_added": "13273182072008595",
+               "date_last_used": "0",
+               "guid": "ad4c4b44-7bb0-4e70-b41e-32c5d8eccf03",
+               "id": "53",
+               "name": "Inbox (2) - Mail",
+               "type": "url",
+               "url": "https://wp.titan.email/mail/"
+            }, {
+               "date_added": "13273783001920090",
+               "date_last_used": "0",
+               "guid": "361bbb98-8841-4248-a5d8-ebc4f9249641",
+               "id": "55",
+               "name": "AZ MVD Now",
+               "type": "url",
+               "url": "https://azmvdnow.gov/dashboard"
+            }, {
+               "date_added": "13283554313352489",
+               "date_last_used": "0",
+               "guid": "97a1a259-1f53-4e40-9b9f-e478e5262c66",
+               "id": "57",
+               "name": "511ProblemSequence.pdf",
+               "type": "url",
+               "url": "https://danaernst.com/teaching/mat511f21/511ProblemSequence.pdf"
+            }, {
+               "date_added": "13286489824035237",
+               "date_last_used": "0",
+               "guid": "f29e6932-b1ac-4379-8800-8f5ab9d44d46",
+               "id": "59",
+               "name": "MAT 114 Coordinated - Dropbox",
+               "type": "url",
+               "url": "https://www.dropbox.com/home/MAT%20114%20Coordinated"
+            } ],
+            "date_added": "13270516978080974",
+            "date_last_used": "0",
+            "date_modified": "13286489824035237",
+            "guid": "759e5f25-a0bf-4e1d-8af8-15522138af95",
+            "id": "45",
+            "name": "7/11 food",
+            "type": "folder"
+         } ],
+         "date_added": "13242040451183547",
+         "date_last_used": "0",
+         "date_modified": "13270516965352353",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "Cu8BCswBCIiBAhLFARI8CAISOAoGCgJibRABEDMaEgmAzTHsjAEGACGAzTHsjAEGADIYChYIAhFNMgT9jAEGABgAIQAAAAAAAAAAIACSAX0KNAoOY2hyb21lX3N5bmNfYm0SBTUxIWJtGhIJ8IIE/YwBBgAR8IIE/YwBBgApidkE/YwBBgAKRQoWYW5ub3RhdGlvbl9jaHJvbWVfc3luYxIFNTEhYmQaEgmAYuz2jAEGABGAYuz2jAEGAClNgAT9jAEGADCAxbG3z7GAA7oBAggBEgAgASoYTjZ3eExZZzN4RWJXd2RtQWZsRHVGdz09SAMS9AEIPxLvAQocQUdacVJHM0dwOFF4YTMvN2N3STlDRWl4c1d3PRJmWjpBRHF0QVp3MnlVWVc5cHNLVGpLWFBHNW52MmtXRnJRcEJ4aysxRUkvS3BkZkhFZ0x1STJLalIzY0dXZk4rT2gxNmVld0hVZE0xdEJJODJSZ3dDZFdUS0hwWC9kYjFYcEE5Zz09GAAgAygDMLbUve3msf8COKyHtv/dMEDFo5m5iTFKHEwxNTEyYXZmREhhZnRXOW5iMjBtdEVMQkVOQT1aJyIl/////wAAAAfTVUltZE5vcFRGaGpsRHBuOUZBQS9rRG5Zb1NrPWX6kd7bEuwBCFYS5wEKHHVQZHFGMTg3TE1sNWtYc0I2bnVyNDFGVVlGcz0SZlo6QURxdEFadzJ5VVlXOXBzS1RqS1hQRzVudjJrV2htTlNRWjk0bUh2OHVZemN2cEtydTZMVGY5UVYxTnhVcUM4YlYzVnRra25uNkFwa1c0cktTUzFSbXRpbU40R21RQ3dSSkE9PRgAIAMoAzD8y4Ke8qqAAzjh7475mDFAmoGP+ZgxShwrL1ZKUkNFcjU2R0NkMVdpbHBLVy9hS3pqNk09Wh8iHag5L2RNaG9XQlhtMUpuY3kzT0tsL3FNbkI0NmM9ZYz5F2IS9AEIRRLvAQocQU9Md2tLN2MzNmRXbXArdFVVT1Z4S3Y4QmgwPRJmWjpBRHF0QVp3MnlVWVc5cHNLVGpLWFBHNW52MmtXS212QVJ2MDVRNTBpZGMzdnAvS0dpVDhRb1VEcXpNU1lrSG1yMnJXZ0MwZFozMVQxeFlITTN6WEpHTHVRZ3JMZElmZGtxZz09GAAgAygDMKrqqq2Vr4ADOJqu9q2DMUDh+ZK/mTFKHEZtY3Nxam4wRVBmTGxubHFUWTFHM3hacmFUMD1aJyIl/////wAAAAf6N0kvTFJxbVlwbWc4OXBBQjVPWXVDeFVidkxJPWVZ8R5CEusBCEsS5gEKHDljYWlkNnBKajI4WGNZcDZuWnF1VEZLdmo2OD0SZlo6QURxdEFadzJ5VVlXOXBzS1RqS1hQRzVudjJrV09NMEV0RnQ3YnRyd2tyb3ZHQ01vZXI3TWlOV0ZTSWdVUXVycWM2M1J1U1h6dllMYURReVNCSGZSNWZtaFlpeExXdEViZmc9PRgAIAIoAjCTmpmb7NL/AjjFgsfWjTFA34LH1o0xShxPU2lWSnhUOXpiWTBzV0hkVmZvdzNjWmg1eXM9Wh4iHEVvVG1KRG9FMWhreTNDS09haDdVTy9QdU45Yz1ljQUbbRLzAQhUEu4BChxLcjNzdWJXdjFoMGpkOVZhWU1WU0h1QzJ4UTA9EmZaOkFEcXRBWncyeVVZVzlwc0tUaktYUEc1bnYya1cvNk0xbWp3TjUvbis4TWN6UUNKc29CMHNYZU81ODdqbDdrNHV0MWxIYmh4c29ReDM5WTZuM2V2VXh6RG9Pd01uYTJCY0ZBPT0YACABKAEw7qT0hfKqgAM45vWL+ZgxQOb1i/mYMUocSExDZFlOTEM1RytiZk52aExVRzBiblpqVEEwPVomIiT/////AAAACHVkaWRFbTE5VGFvSTg3azVkWXZRZEphUXlqOD1lAAAAABLrAQhVEuYBChxFN1pvRnNpOFgrZGlKK3BmMlZnSUY5RzJjWkE9EmZaOkFEcXRBWncyeVVZVzlwc0tUaktYUEc1bnYya1dzcUgvbUpGV1M4djA5OVRmM09Qd1piL3NYU3llQisrWGNkaVdKeHp0Rlkwc2w5YjNoaEh3aTM2cndTSzVpNHJ3NHEyZ2JnPT0YACADKAMwoof/mPKqgAM4vYuO+ZgxQPCujvmYMUocbDNtYTV3SjdTZjAzZVpIdXVFOUFHaWdaUHd3PVoeIhw0THpodnY4aHhCUXEwN0MvK2xWWVNWS3EzOGs9ZYz5F2IS8wEIUxLuAQocZ0NETUNkRHdSRFhXZ0xJa040UG9uVnJMR1JFPRJmWjpBRHF0QVp3MnlVWVc5cHNLVGpLWFBHNW52MmtXbjN5TFk0ZWdGcjlJV2FyVWpTelFiNmlqNmc1dnVoRHk1TXRDY3ZLWGZycU9GWHRubThmRWdhT29LbVl6dGlJSi9GK25GZz09GAAgASgBMO6k9IXyqoADOOb1i/mYMUDm9Yv5mDFKHFhHdnlkallFcCt2MTQ0TG1sZ0hnbTF3eDRHUT1aJiIk/////wAAAAhveG92WlpOZWF2VEYwZGJxRkNDQUtyd0pCdFU9ZQAAAAAS7AEINxLnAQoccDZ2Y0luczJGdUF0Q0h1Ni9HWlhEMEZ2Rm1BPRJmWjpBRHF0QVp3MnlVWVc5cHNLVGpLWFBHNW52MmtXditxUFhaeVVrTERKNi96eHU1b1FWeFV1YkF0L29ldkNNVlhMdUt3NVpXaWVsZTJGanE5d1JNbWd4SUxZcnZTd0RQUGpOQT09GAAgAygDMLypr7iI7/cCOMD2odO1L0CylNqbjjBKHEYxdXFqS2Q4d2d6WjdhajJWOEhPSG1ZTUpvaz1aHyId/mdRYTMvaUJyOUtjc3BXVUwxREhqM2IxU1dwTT1lFl99+RKtAggxEqgCChxTWVV2WFhOdk1sTG1RZ1BYYUhwcUpsUE5oeWM9EqYBWjpBRHF0QVp4Ui83emlUZGMzK3FNTFphamJBR0swYUFieFVoMGhrSXVpam52cFQra3dTNmtUa3dVOFRHQzRCUWtUbCt1ejNmS0M0aHVtSzZham5ONEp3MnpFNW11WGpyYm5ZbDdkTXlydnAzRDErK09TcUJQQnZrR0NzMVIxdjJISi8yYXN0aFlVblVBK3ErREdYWmc5aVpmZUptUnZ4c1JFS2c9PRgAIAMoAzC8qa+4iO/3AjiCu/S9qS9AspTam44wShw1U2dTeTNOYXoxbEdPeWh5T3FRb3FVZ1ZOMEk9Wh8iHfZPSXBTUm1LNFdRaWprMWxzTGNkejNxbXBTZTA9ZQL6UcoStAIIERKvAgocYTNDaHlxRU55VVNzT1J4cW03OWNkaDlteE5ZPRKmAVo6QURxdEFaeFIvN3ppVGRjMytxTUxaYWpiQUdLME5wMVZ5ZXV1TjVWR0txa0NlM0RMUWZHcmRxQXBTdjI4ZnVhL2pqV3NON1BlbEhBemphTVZIRVR5OURFclh3LzZ3YldnZFlQbkpGSE9PVTk2eGhpWE1SbEVCdU1aQVpDa0gxQUF1ZVl2c3k3UVVtYmswNDhYRzhEL2R3WGxBejFkTWwzOGN3PT0YACAHKAcwttS97eax/wI4qcWk0PstQMWjmbmJMUocOFArekVnQmFORDR3SjJOUzRGYzkxSUtHN3RzPVomIiT/////AAAABkxUelRlVWlSRi9sZUxkamNmMkxPRkJKNGRxVT1lO+93YhLDAQgCEr4BChxZY1NUb252RVNQd3FDczRMMmNyVmh2NjhMOTg9EmZaOkFEcXRBWnhrd2dOWlFWM1RjRkRmOVYzWjV1aEV5ekFHbW8xdG84U0taMmViM3hwU3NkSW5DK1pvZWdQN0ZDSEZuOGxiRTVrU3NNWVZZVzZPZzJZY3NHbjRXZWdENnVFN3NnPT0YACAAKAAwyNeU3aif6wI4AEAAShw1dXN5L2NwZnBpMUV0b0JIRGdYSXMwcWI0ckE9WgBlAAAAABL0AQhBEu8BChxBM3M2VkJVNWEwM3JPaG05NlFqWGNZSEtxbWs9EmZaOkFEcXRBWncyeVVZVzlwc0tUaktYUEc1bnYya1dLdkNBTmVIMmhRTnVXQjNjRE5jTDBBckxwcitEK0M0VzVaZ1Z0TVNia0YrV3d4QnJhaHI0anFRZVRYUjVGUTBXdWZBR3RBPT0YACABKAEw1KaHgqro/AI47qyJo98wQO6siaPfMEocY1JMODZBekpYZldzTFFhVEZKdkhuYVlRK2R3PVonIiX/////AAAAB+loT212QW0vcVpHaXFEVzhTbmlxZTV5STlQbzg9ZQAAAAASrQIILxKoAgocQjBTbmN6Z3NWVGJWQWV2M3lyRm9VYUdjRGJJPRKmAVo6QURxdEFaeFIvN3ppVGRjMytxTUxaYWpiQUdLMGFBYnhVaDBoa0l1aWpudnBUK2t3UzBKMEc2VTlIbzdGWmN6Z1NXcW10alVsUHZjQjV6YlB4cStYWGhFU1l2bWZMMzdkOUp3SmFFd0RSRHNQUlpITnVob0lrUCtyNjR2elZUWGRtTFNqN0hwR0Fva1l1YnhyaW8yWkZnRFpnNy9rTVdCcXpBPT0YACADKAMwvKmvuIjv9wI4oYT0vakvQLKU2puOMEocVjByejZiV255NmVGaVBWeEQwOU5Ed3ZRenZBPVofIh3YUDFGVVlkSDViWDllSkUzSGtFbjdkVmZzQXNvPWUC+lHKEuwBCDkS5wEKHGs1aENqbnphckxKa0tTbEVWWEF2K2tEZU90UT0SZlo6QURxdEFadzJ5VVlXOXBzS1RqS1hQRzVudjJrVzN5aG1wNk0rRVZVbkJ3LzNkSCtXcjJjR1dJQzdKamFNUW1reXpoRUJRcmFnczFTV3RXOHg0eFFHaWppT2lBZVp1R0pEaEE9PRgAIAIoAjC8qa+4iO/3AjiIucuG2i9AspTam44wShxvMWNxajdFbXBNVEljUVFDTDdZLzZjaHJTaXM9Wh8iHf9kRzR3NU13WWdqdk4rbzNoOEZqR1JIK1ZRNXM9ZSczRkISrAIILBKnAgocSE1GclVpVyt2a044WFFoYnZMK2RWbnN2cEJVPRKmAVo6QURxdEFaeFIvN3ppVGRjMytxTUxaYWpiQUdLMGFBYnhVaDBoa0l1aWpudnBUK2t3Uy9FbXhGZ1JrbktuMSs3WlFOVU5nK3YvUWFLOEw1RXpCMHVZMTArV3lZMmR6Z1QwOUhCaEJsRmVZaXdIcFVBME1qc0xQNk9DWGhYaDNsZnZ6SWNOYlpnWDVQTFNRZk5Ha1JES0NJWDJQTnk2M1loOERnPT0YACAEKAQwvKmvuIjv9wI46O/yvakvQLKU2puOMEocbzk5c3NFanNlcVJnVm5FY1RhQmJFWVRDTWRVPVoeIhxiRWZjMG9LMTNST1NVMjRta0I1YjBuc3BKb0k9ZdjEhyISqwEIARKmAQoceXhKLzZmdmtlY3I3a3A1RVF6QjR0V0xwZGJFPRJOWjpBRHF0QVp6WkhMQkxlZ0MyWWNuNEpjL0ZGU3JzWFp0alpKZzJDWloyanhRT0l1Zm1HZmluYzZsQUJPWlVua0Q1YVpaY2lTdWEyNmFVGAAgACgAMMjXlN2on+sCOABAAEocVStHR0l0WkVEcFpzSVNsT1VhSVR1SUxkTW5JPVoAZQAAAAAS6wEITRLmAQocRGx4UjRqZ2h4bUNkUDR4eE9xK3pkelgxWkJjPRJmWjpBRHF0QVp3MnlVWVc5cHNLVGpLWFBHNW52MmtXY0pjNmxjTEg2UHFweU1GdzEyQlRzYU00bVFkZEFDOWJKMmMxUGUva0VlaGdwbTFCM1V2WFNoWXNWenUzM3JESGpaNVpkUT09GAAgACgAMIix4P6KjIADOPbusICVMUD27rCAlTFKHHRuVXQvcDBXcmVvMDdWWW9obWJJMGpzOHIzTT1aHiIcbzhwbGp4MXdmS2l1NHhtQnRaNzcwSDlIV3lnPWWqeCACEq0CCDASqAIKHEFySWRrR1NhYzFHVUlEMnhNajBKdzU0SkdxVT0SpgFaOkFEcXRBWnhSLzd6aVRkYzMrcU1MWmFqYkFHSzBhQWJ4VWgwaGtJdWlqbnZwVCtrd1N6MkFQSUZwVitJVEdIY0s1VXAxdjlMMmUzOU5idWJlSFB6TGwrZXhMSDZnMlUzalJ1Z3dmNUVtd25DelFHVzJhMnNyWnh0WlYwOU0yeDhSU21lR1pMbDFnN2JWNTlnY3ZFdXlIZi92UC82Z1FjcnRwQT09GAAgBCgEMLypr7iI7/cCOP2d9L2pL0CylNqbjjBKHDBkcXVRMXpRN29ocXFkdHhIMUwxZ3VFKzVOaz1aHyId7FdTSGJIcGpGTVRva25BTyttY1cySmRZTnc3WT1l2MSHIhLzAQhJEu4BChx3eVEvQmp3Z2JJNDBBZUxPZHlWenRHK3ZqK0E9EmZaOkFEcXRBWncyeVVZVzlwc0tUaktYUEc1bnYya1dhMHI0cUY3bXh6cjdwcGxsVklGYmo5VjdlNVpZV013d3FDZnFZTGIza2RwcFpGL2M1S3p0S0hjUHk1dysreEE2QkNwYjN3PT0YACABKAEwgczQjsSi/wI4qc/+vocxQKnP/r6HMUocT082VXZuUmh6L0FXYjBaa3NiK0VsWTg5Y0U0PVomIiT/////AAAACFJZZ0pKUXV5U3oxQjcyWm5EcW5icHMrcWNibz1lAAAAABLsAQhPEucBChxVOUZSMWVudGxTd09aVHFYaTBqZ0ZUMnpzd2s9EmZaOkFEcXRBWncyeVVZVzlwc0tUaktYUEc1bnYya1cya0hESkhwOHAwSmkvOGpVWVdWWElLd1JSVWxFTmEveU1tOXlFSlJuaURSUG9NL2l1TS9LSTJ6SkxVaEdMUHRTaGw2Ukl3PT0YACACKAIw+/7+ofingAM4v6veyJgxQNSr3siYMUocN094WGltdmVMYzF2SkJLMWp3SXN4MWlTUTY4PVofIh23ZlZnWUNOSCtJcitoRVNZSVBkTVNxdSsrdnc4PWX0rVOpEu0BCDsS6AEKHEFKUUhlQlNpN2tTQUNvT1Y2UWI3UngwOFVUbz0SZlo6QURxdEFadzJ5VVlXOXBzS1RqS1hQRzVudjJrV1F4RGhmMjNOc2dTVFNOeHBDdHdaamM2NFF1KzMrS2Q3ZHJ1R2M1bTBXQW9ERVYzS1FrN1E2OEVkQVZFNktLQUlIWWRqQ3c9PRgAIAIoAjC8qa+4iO/3Ajij5qz+5C9AspTam44wShxvWGE2UDZGU1JvQzh5ZzBEVHFCVG45akc5Z289WiAiHv+yVFhPRGkzYUF0NlE5RCtoQ3JZM1AxL3QyMlJFPWUypYPtEvQBCEMS7wEKHFJVL29aTXlHWG41Z1JneDhOaFBSSlRnMEMwMD0SZlo6QURxdEFadzJ5VVlXOXBzS1RqS1hQRzVudjJrV0hZZjdJRGlEVDRpcnlEQjg1cGVaT2pyRUN1eWk0OWw2SFNMR2hwUlkxYU1lL1dKSmg4OS9uL3JFSDB0U0NvK25LR0thUlE9PRgAIAEoATDA6Je7vvX8AjjGpNf64DBAxqTX+uAwShxXeUtBYWxoYkh5VEp5c3RITXJsRUFkNTJXb2c9WiciJf////8AAAAH9DkzMUNmSjNSQ09iU2V5MlErdGx3OXorYVBlND1lAAAAABLsAQg1EucBChxrMnJLckFjVVpzRVc3NEJzYkVLMGIvNlNXQ2s9EmZaOkFEcXRBWncyeVVZVzlwc0tUaktYUEc1bnYya1dWUk82NDAyNlRoWWxtRG9iNHJ4Z3pST0IyVlBBSHlMN01HbzdHSkhnQUdRb3pFMnNOaDZnemNKTUQxSmFvSEVMckpHS0ZBPT0YACABKAEwvKmvuIjv9wI4yInctLMvQLKU2puOMEocMkRvT2hYM3NRcUZYL1hmNzBTbURzT01zVG1JPVofIh39aVh4YzBVbCt2QlRza2lIT3VHVHc5bHNta1JVPWV4c3Z0EsMBCAMSvgEKHG5qZ0R1ODhlQ3J2WHA4NnBEN2ZIR2NxRnA4OD0SZlo6QURxdEFaelBEZWMxSlJFa2xMYlRUWEg5NW9mWEowVnJpWGZGZ0tNUUMvVXdIdVVpQVFLQStsS0lNY0UydnRHV0RWRUZZNEZVSE1YcG94T1psMlloR2lIeU8vbnl1ejRDMnc9PRgAIAAoADDI15TdqJ/rAjgAQABKHDc5bCtMUkVVcGlhRXZERCtHNDNjcFhTdHdCYz1aAGUAAAAAEvQBCEYS7wEKHGpSM0YzY1pJZVZWZTdrSGhvV2YwWCtYSVZyUT0SZlo6QURxdEFadzJ5VVlXOXBzS1RqS1hQRzVudjJrVzA5dGRrWjk0aTFiNDdpTnc3U0dGdFBZNFNxTXozRlJLenVHZEU1QlJ2UXZyd21hL3JSS3RQRG51V1VCZVQ3TkNIZDZXblE9PRgAIAIoAjC21L3t5rH/AjjF2PatgzFAxaOZuYkxShxWZUNYdmFZYUFFZHpoNWtMZC9lNnloZDYvYkk9WiciJf////8AAAAH/VJSVEwwZktGYWZ3QTdZY2d5RnFLK3EvdGNJQT1ldXXEUxLrAQhIEuYBChw1MGt0WjFXeXlLa016UmthUHpqL3p6UzgwUlE9EmZaOkFEcXRBWncyeVVZVzlwc0tUaktYUEc1bnYya1d1M1U4TkJGdjV4SkRmbFczd3lUS2ExanF0WXFXWHd1VFNwVEVBbms0bldTOFcvb2ExTVMrWStMOHZhNk5tS3BRZ2lqQUZnPT0YACACKAIwgczQjsSi/wI4vJv9vocxQKnP/r6HMUocYTNaRHJGbXBiM28xZEErbGQwK1Q4azdjcjFJPVoeIhxEUS9jT1ZKN3pzRG9tT2VQc0FqbktLQVZDcXM9ZQAAAAASrQIIMxKoAgocNDBrNWZuS2MyaVkxbGVuZ3k3UmQyY3ZobXdzPRKmAVo6QURxdEFaeFIvN3ppVGRjMytxTUxaYWpiQUdLMGFBYnhVaDBoa0l1aWpudnBUK2t3UzZvd0RWQXlqMzY0cE1ma1ViSVkvbllaMGdCS2VRTjNtVk9rYWxOVlYzZVdaVE1ObThvc3hBaytsdGZhY2tsSE12WE9FK2lnNzRIMDYxMzhsZEt4S2J0ZCtFamQvTytuakFXdUVzbThNcWN3bi8zcE93PT0YACADKAMwvKmvuIjv9wI4m+aghq0vQLKU2puOMEoccjdSU00xTEpHcWNHdFJoQ21FR3luODlSWVhJPVofIh37OVI2WlpobnR1YXkzZDQrZjdERm9FZDl6SGdJPWXUHbAUEqwCCCoSpwIKHGdKbkt3dG0zZVlYUE95SlRoZHBGZ0RybkZ1WT0SpgFaOkFEcXRBWnhSLzd6aVRkYzMrcU1MWmFqYkFHSzBPeFpGUDc1dGx5TW4xWVFVaEQ0TjVhK0VJeVR6a3p2N3U4TDZycU1hU3JsMGJFbmowVU01Vlc1UFppL2JTMi9ldnpvb3pRejg5c0tMUG43am5DNEhlMm5OQ05iVDVYRTdmSktBSWJVbFhOZ2xlVjNYdCtBRXR1M3VSYnJ2amE3clA5cGZlZz09GAAgASgBMPiZkOmM9foCOM7LgqGnL0DWm4OSwDBKHHRNUmhodlVZN3gzZW5BaWZMVFNUWW5IZFBNZz1aHiIcYjZHVzBGYUp5OU0wSXRUSXJscytxZ2ZkWDZjPWX0R0nSEuwBCFAS5wEKHG0zU1NzckM5YUJ0OEpQM1ZMOFF2Q1JpczJCMD0SZlo6QURxdEFadzJ5VVlXOXBzS1RqS1hQRzVudjJrV2liZnoxODdyQU52emxLZnZWMnloMzFjRXRnNE04ZlZ1WlRLVEdURlFNZEYxSU9BcGNnSUpBRjR3RjUxWjlUWUphYktKQkE9PRgAIAIoAjCM9rKVr6iAAzid7OHPmDFAuOzhz5gxShx3UFNoSzYyYklSbXNjT3BjbW5rUlRLbWFnaDg9Wh8iHdtmakR0Q3E2UldzeWNuRjNpdFNVS2paZlJlTWs9ZXV1xFMS7AEIWBLnAQocWDRXTWM5T29XK1F5WW1FVjRLMDR4Y3BjT3U4PRJmWjpBRHF0QVp3MnlVWVc5cHNLVGpLWFBHNW52MmtXMDFTVGY0Uzd6bnd3TUk5UzQzSk1DVTlyQkJnbGovZFRnS0ZaKy94U2FXOVgxZkdwMWU1R0NjNlpvcTdNRXYrR0RBbHVpUT09GAAgAigCMN20jY+srYADOLnQpaGZMUDQ0KWhmTFKHGk1MlZMeFNBaWhCNjYyWFBqSmxjRENjdmFlYz1aHyId1GdueXJ6TVQwN0RoY1ZSM3o4Rmdob1hNMzFldz1li6CM0RKtAgguEqgCChwyOVhJcHh4clRlTEVsZkkvY0dITndmUHBMSjQ9EqYBWjpBRHF0QVp4Ui83emlUZGMzK3FNTFphamJBR0swYUFieFVoMGhrSXVpam52cFQra3dTMlgzWnFNTTJCRzlXVjFuY1dzYmtIUHJadlhERWF0cnVqdDMxK3FvaFluK0NoeWg4WHNWL29ZNmx5QjJrS2VGbk9sL2ErZE0vU1luckNXSFdOUHBhZzdZTlQ5VFNJMEVRaERZN1FIMGYwK2xVQWZkNlE9PRgAIAMoAzC8qa+4iO/3Aji46/O9qS9AspTam44wShxRd25Bbkd4Q1JVQ1R4c2tQeWdNVGs0VkhqRnM9Wh8iHbFDeGx2MTNYcTdET0o5NDkwTUtGSXpJd1g0Slk9ZQL6UcoSrQIILRKoAgocL0N0cGlFZ2RqNUNrLzJMWDF1QXBQSnhQOXJVPRKmAVo6QURxdEFaeFIvN3ppVGRjMytxTUxaYWpiQUdLMGFBYnhVaDBoa0l1aWpudnBUK2t3U3hqYllMV2R5VzJyK090dXZhc29pM0lBMEVEVWV2K2crSmJ1VlpGdnErS2RyV3BhOU5iT1JGVWpWeFVBaVoyY1IrQUZjMU9MSWV1N2NUdC8rTlMyQmp1TC81K3hJaHdzUzZ1aUt2VVoxUWJtNWVYY3pnPT0YACACKAIw0aSWuIjv9wI4odPzvakvQJiR2puOMEoccXhManhLU09iSE9FbDFJNllhRGsyUnlteU53PVofIh29YjZjWGFpVWpEYkFjM2tDQ3NUejNzRm1IWDlRPWUAAAAAMAE=",
+   "version": 1
+}
