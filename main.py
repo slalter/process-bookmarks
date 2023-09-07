@@ -35,9 +35,6 @@ def hello_http(request):
     # Build the Sheets API client
     service = build("sheets", "v4", credentials=credentials)
 
-    
-    # Initialize the Google Maps client
-    mapsClient = googlemaps.Client(key=os.environ.get('MAPS_API_KEY'))
 
     #pull the sheets for both Ind and Wet
     try:
@@ -60,16 +57,15 @@ def hello_http(request):
         return -1
 
     #replace a row in the appropriate sheet.
-    #replace a row in the appropriate sheet.
     def replaceRow(data, dType):
         if dType == "Industrial":
             index = getIndex(data["agent_name"],indSheet)
             if(index>0):
                 oldRow = indSheet[index].copy()
-                data['agent_address'] = oldRow[3]
-                data['agent_phone'] = oldRow[4]
-                data['company'] = oldRow[5]
-                indSheet[index] = [data[ind] for ind in ["title","property_address","agent_name","agent_address","agent_phone","company","last_mailed","num_mailed","ready_to_mail","property_type","first_seen"]]
+                data['agent_address'] = oldRow[4]
+                data['agent_phone'] = oldRow[5]
+                data['company'] = oldRow[2]
+                indSheet[index] = [data[ind] for ind in ["title","property_address","company","agent_name","agent_address","agent_phone","last_mailed","num_mailed","ready_to_mail","property_type","first_seen"]]
             else:
                 data["first_seen"] = datetime.now().strftime("%Y/%m/%d")
                 addRow(data, dType)
@@ -77,10 +73,10 @@ def hello_http(request):
             index = getIndex(data["agent_name"],wetSheet)
             if(index>0):
                 oldRow = wetSheet[index].copy()
-                data['agent_address'] = oldRow[3]
-                data['agent_phone'] = oldRow[4]
-                data['company'] = oldRow[5]
-                wetSheet[index] = [data[ind] for ind in ["title","property_address","agent_name","agent_address","agent_phone","company","last_mailed","num_mailed","ready_to_mail","property_type","first_seen"]]
+                data['agent_address'] = oldRow[4]
+                data['agent_phone'] = oldRow[5]
+                data['company'] = oldRow[2]
+                wetSheet[index] = [data[ind] for ind in ["title","property_address","company","agent_name","agent_address","agent_phone","last_mailed","num_mailed","ready_to_mail","property_type","first_seen"]]
             else:
                 data["first_seen"] = datetime.now().strftime("%Y/%m/%d")
                 addRow(data, dType)
@@ -291,7 +287,12 @@ def hello_http(request):
 
 
 #[{title, property_address, agent_name, agent_address, agent_phone, company},$agent2 if 2 agents
-def getData(url, mapsClient):
+def getData(url):
+
+    
+    # Initialize the Google Maps client
+    client = googlemaps.Client(key=os.environ.get('MAPS_API_KEY'))
+
     data_out = [{}]
     print(f"getting data for url: {url}")
     headers =  { 
@@ -333,6 +334,7 @@ def getData(url, mapsClient):
     agent_address_element = soup.find('div', class_=lambda c: c and c.startswith('cta-address'))
     if agent_address_element:
         agent_address_text = agent_address_element.get_text(strip=True)
+        print(agent_address_text)
         data_out[0]["agent_address"] = get_best_address(agent_address_text,client)
 
     # Extract the agent phone

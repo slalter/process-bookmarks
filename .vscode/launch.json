@@ -7,7 +7,7 @@
       "functionName": "ProcessBookmarks-1",
       "region": "us-west2",
       "gen": "GEN_2",
-      "revision": "processbookmarks-1-00043-jos",
+      "revision": "processbookmarks-1-00050-zus",
       "entryPoint": "hello_http",
       "runtime": "python311",
       "testInput": ""
